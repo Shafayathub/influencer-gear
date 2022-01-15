@@ -122,3 +122,25 @@ header >.sandwich-menu > h2{
     position: absolute;
     right: 200px;
 }
+
+.last{
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+/* Footer styles */
+footer{
+   
+    text-align: center;
+    align-items: center;
+    height: 239px;
+    color: white;
+    background: #0A0826;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+footer> p> a{
+    text-decoration: none;
+    color: white;
+    padding: 16px; 
+}
