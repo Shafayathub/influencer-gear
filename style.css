@@ -112,3 +112,13 @@ header >.sandwich-menu > h2{
     color: #FB8200;
     margin-right: 8px;
 }
+.lower-mid> .see-more> a{
+    text-decoration: none;
+    color: #E02C6DDE;
+    font-weight: 700px;
+}
+.see-more{
+    margin-top: 50px;
+    position: absolute;
+    right: 200px;
+}
