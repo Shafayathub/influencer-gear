@@ -29,4 +29,41 @@ body{
 }
 /* header styles end */
 
+/* First section styles */
+.first-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 133px;
+    align-items: center;
+    justify-items: center;
+    margin: 20px 200px;
+}
 
+.right> img{
+    Width: 440px;
+    Height: 414px;
+}
+
+.image-background{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+
+.left> h1{
+    font-size: 52px;
+    font-weight: 700px;
+}
+.left > p{
+    font-size: 16px;
+    font-weight: 600px;
+}
+.first-button{
+    background: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px 10px 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700px;
+}
+/* First section styles */
