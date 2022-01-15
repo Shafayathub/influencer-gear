@@ -7,6 +7,9 @@ body{
     margin-bottom: 0px;
     color: #3A3A3A;
 }
+section{
+    margin: 20px 200px 50px 200px;;
+}
 
 /* Header styles start */
 
@@ -36,7 +39,6 @@ body{
     column-gap: 133px;
     align-items: center;
     justify-items: center;
-    margin: 20px 200px;
 }
 
 .right> img{
@@ -67,3 +69,15 @@ body{
     font-weight: 700px;
 }
 /* First section styles */
+/* mid section */
+.tech-leaders{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border: 1px solid;
+        border-image: 
+        linear-gradient(to bottom, #E02C6D, rgba(192, 204, 218, 0.1)) 1 100%;
+        /* border-bottom: 1px solid rgba(192, 204, 218, 0.1); */
+        padding: 36px 0px;
+}
+/* mid section */
