@@ -13,6 +13,10 @@ section{
 
 /* Header styles start */
 
+
+header >.sandwich-menu > h1{
+    font-size: 24px;
+}
 .sandwich-menu{
     display: flex;
     align-items: center;
@@ -53,7 +57,6 @@ section{
 
 .left> h1{
     font-size: 52px;
-    font-weight: 700px;
 }
 .left > p{
     font-size: 16px;
@@ -68,7 +71,8 @@ section{
     font-size: 16px;
     font-weight: 700px;
 }
-/* First section styles */
+/* First section styles end */
+
 /* mid section */
 .tech-leaders{
         display: flex;
@@ -77,7 +81,8 @@ section{
         border: 1px solid;
         border-image: 
         linear-gradient(to bottom, #E02C6D, rgba(192, 204, 218, 0.1)) 1 100%;
+        /* border-top: 1px solid rgba(192, 204, 218, 0.1); */
         /* border-bottom: 1px solid rgba(192, 204, 218, 0.1); */
         padding: 36px 0px;
 }
-/* mid section */
+/* mid section end */
